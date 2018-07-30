@@ -9,7 +9,7 @@ module.exports.getPictures = async (ctx) => {
 
   const pictures = await Promise.all(pictureList.map(async p => {
     let photo = await axios.get(`https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=${apiKey}&photo_id=${p.id}&format=json&nojsoncallback=1`)
-    return photo.data.sizes.size[1].source
+    return {...photo.data, ...p}
   }))
   ctx.body = pictures
 }
