@@ -1,25 +1,63 @@
-# Get started
-**1.** Create a **.env** file in the root folder and and write your flickr API key following the **.env.example** file.
+# Flickr gallery server
+*Explore the most recent images uploaded to Flickr worldwide.*
 
 
 
-**2.** Install dependencies:
+---
+
+This is the server implementation for [flickr gallery](https://github.com/jportella93/flickr-gallery-client). It's main purpouse is to consume the flickr api and serve this information to the client.
+
+
+
+## Getting started
+**1.** Clone the repo
+
+```
+$ git clone https://github.com/jportella93/flickr-gallery-server.git
+$ cd flickr-gallery-server
+```
+
+**2.** Create a **.env** file in the root folder and copy the content from the **.env.example** file. Write your own flickr API key in the .env file.
+
+**3.** Install dependencies:
 
 ````
-yarn install
+$ yarn install
 ````
 or
 ````
-npm i
+$ npm i
 ````
 
 
-**3.** Start the server:
+**4.** Start the server:
 
 ````
-yarn run start
+$ yarn start
 ````
 or
 ````
-npm run start
+$ npm start
 ````
+
+**5.** Go to the [client](https://github.com/jportella93/flickr-gallery-client) and follow the getting started.
+
+
+
+## Built with
+
+* [Koa](https://github.com/koajs/koa) - Async middleware for Node.
+* [flickr API](https://www.flickr.com/services/api/) - Provides flickr pictures and user's info.
+
+
+
+## Author
+
+Jon Portella - [Github](https://github.com/jportella93) - [LinkedIn](https://www.linkedin.com/in/jonportella/) - [Twitter](https://twitter.com/jportella93)
+
+
+
+
+## License
+
+This project is licensed under the MIT License.
