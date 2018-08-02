@@ -5,7 +5,7 @@
 
 ---
 
-This is the server implementation for [flickr gallery](https://github.com/jportella93/flickr-gallery-client). It's main purpouse is to consume the flickr api and serve this information to the client.
+This is the server implementation for [flickr gallery](https://github.com/jportella93/flickr-gallery). It's main purpouse is to consume the flickr api and serve this information to the client.
 
 
 
@@ -40,7 +40,7 @@ or
 $ npm start
 ````
 
-**5.** Go to the [client](https://github.com/jportella93/flickr-gallery-client) and follow the getting started.
+**5.** Go to the [client](https://github.com/jportella93/flickr-gallery) and follow the getting started.
 
 
 
